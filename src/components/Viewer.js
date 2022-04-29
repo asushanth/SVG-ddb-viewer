@@ -11,7 +11,7 @@ export default function Viewer({ svgData }) {
                 src={`data:image/svg+xml;utf8,${encodeURIComponent(svgData)}`}
                 alt="SVG currently being displayed"
                 style={{
-                    maxWidth: 420, // Stop the SVG from expanding to the moon
+                    maxWidth: 420, // Stop the SVG from expanding to the moon 
                 }}
             />
         </>
